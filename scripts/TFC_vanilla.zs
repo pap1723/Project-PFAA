@@ -252,37 +252,30 @@ recipes.remove(<IC2:blockMetal:*>);
 //recipes.remove(<techreborn:techreborn.storage:*>);
 
 recipes.addShapeless(<minecraft:gold_block>, [<ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>]);
-recipes.addShapeless(<terrafirmacraft:item.Gold Ingot> * 9, [<minecraft:gold_block>]);
 
 recipes.addShapeless(<minecraft:iron_block>, [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]);
-recipes.addShapeless(<terrafirmacraft:item.Wrought Iron Ingot> * 9, [<minecraft:iron_block>]);
 
-recipes.addShapeless(<terrafirmacraft:item.Copper Ingot> * 9, [<IC2:blockMetal>]);
+recipes.addShapeless(<IC2:blockMetal>, [<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>]);
 
-recipes.addShapeless(<terrafirmacraft:item.Tin Ingot> * 9, [<IC2:blockMetal:1>]);
+recipes.addShapeless(<IC2:blockMetal:1>, [<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>,<ore:ingotTin>]);
 
-recipes.addShapeless(<terrafirmacraft:item.Lead Ingot> * 9, [<IC2:blockMetal:4>]);
+recipes.addShapeless(<IC2:blockMetal:4>, [<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>]);
 
-recipes.addShapeless(<terrafirmacraft:item.Nickel Ingot>*9, [<ore:blockNickel>]);
+recipes.addShapeless(<IC2:blockMetal>, [<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>]);
 
-recipes.addShapeless(<terrafirmacraft:item.Platinum Ingot> * 9, [<techreborn:techreborn.storage:9>]);
+recipes.addShapeless(<ImmersiveEngineering:storage:4>, [<ore:ingotNickel>,<ore:ingotNickel>,<ore:ingotNickel>,<ore:ingotNickel>,<ore:ingotNickel>,<ore:ingotNickel>,<ore:ingotNickel>,<ore:ingotNickel>,<ore:ingotNickel>]);
 
 recipes.addShapeless(<ImmersiveEngineering:storage:3>, [<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>]);
-recipes.addShapeless(<terrafirmacraft:item.Silver Ingot> * 9, [<ImmersiveEngineering:storage:3>]);
 
 recipes.addShapeless(<ImmersiveEngineering:storage:7>, [<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]);
-recipes.addShapeless(<terrafirmacraft:item.Steel Ingot> * 9, [<ImmersiveEngineering:storage:7>]);
 
 recipes.addShapeless(<terrafirmacraft:item.Zinc Ingot> * 9, [<techreborn:techreborn.storage:8>]);
 
 recipes.addShapeless(<ImmersiveEngineering:storage:6>, [<ore:ingotElectrum>,<ore:ingotElectrum>,<ore:ingotElectrum>,<ore:ingotElectrum>,<ore:ingotElectrum>,<ore:ingotElectrum>,<ore:ingotElectrum>,<ore:ingotElectrum>,<ore:ingotElectrum>]);
-recipes.addShapeless(<tfctech:item.Electrum Ingot> * 9, [<ImmersiveEngineering:storage:6>]);
 
 recipes.addShapeless(<ImmersiveEngineering:storage:5>, [<ore:ingotCupronickel>,<ore:ingotCupronickel>,<ore:ingotCupronickel>,<ore:ingotCupronickel>,<ore:ingotCupronickel>,<ore:ingotCupronickel>,<ore:ingotCupronickel>,<ore:ingotCupronickel>,<ore:ingotCupronickel>]);
-recipes.addShapeless(<tfctech:item.Constantan Ingot> * 9, [<ImmersiveEngineering:storage:5>]);
 
 recipes.addShapeless(<ImmersiveEngineering:storage:1>, [<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]);
-recipes.addShapeless(<tfctech:item.Aluminum Ingot> * 9, [<ImmersiveEngineering:storage:1>]);
 
 recipes.addShapeless(<techreborn:ingot:28> * 9, [<techreborn:techreborn.storage:10>]);
 recipes.addShapeless(<techreborn:ingot:30> * 9, [<techreborn:techreborn.storage2>]);
